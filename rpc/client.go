@@ -14,7 +14,7 @@ import (
 	"syscall"
 	"time"
 
-	"pi-go/wire"
+	"github.com/garymjr/pi-go/wire"
 )
 
 type Client struct {

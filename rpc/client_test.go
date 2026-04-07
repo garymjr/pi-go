@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"pi-go/wire"
+	"github.com/garymjr/pi-go/wire"
 )
 
 func repoRoot(t *testing.T) string {

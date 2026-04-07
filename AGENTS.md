@@ -1,6 +1,6 @@
 # AGENTS.md
 
-- Module path is `pi-go`; the repo targets Go 1.22.
+- Module path is `github.com/garymjr/pi-go`; the repo targets Go 1.22.
 - Public packages are `rpc` (subprocess/RPC client) and `wire` (protocol types, framing, codecs).
 - `internal/testproc` is test-only. `rpc/client_test.go` builds it on the fly with `go build ./internal/testproc`, so unit tests do not need a real `pi` binary.
 - Use `go test ./...` for full verification.

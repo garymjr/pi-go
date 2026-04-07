@@ -1,6 +1,6 @@
 package rpc
 
-import "pi-go/wire"
+import "github.com/garymjr/pi-go/wire"
 
 type Notification interface{ notification() }
 

@@ -3,7 +3,7 @@ package rpc
 import (
 	"context"
 
-	"pi-go/wire"
+	"github.com/garymjr/pi-go/wire"
 )
 
 func (c *Client) WaitForIdle(ctx context.Context) error {

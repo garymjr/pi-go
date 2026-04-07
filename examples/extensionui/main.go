@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"os"
 
-	"pi-go/rpc"
-	"pi-go/wire"
+	"github.com/garymjr/pi-go/rpc"
+	"github.com/garymjr/pi-go/wire"
 )
 
 func main() {

@@ -14,7 +14,7 @@ Go RPC client for `pi --mode rpc` over stdin/stdout.
 ## Install
 
 ```bash
-go get pi-go
+go get github.com/garymjr/pi-go
 ```
 
 ## Quick Start
@@ -26,8 +26,8 @@ import (
     "context"
     "fmt"
 
-    "pi-go/rpc"
-    "pi-go/wire"
+    "github.com/garymjr/pi-go/rpc"
+    "github.com/garymjr/pi-go/wire"
 )
 
 func main() {

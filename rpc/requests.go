@@ -4,7 +4,7 @@ import (
 	"context"
 	"reflect"
 
-	"pi-go/wire"
+	"github.com/garymjr/pi-go/wire"
 )
 
 func (c *Client) Prompt(ctx context.Context, cmd wire.PromptCommand) error {
